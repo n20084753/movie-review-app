@@ -1,0 +1,130 @@
+<!--
+  Generated template for the MovieReviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-fab right bottom (click) = "openReviewModal()">
+	<button ion-fab color="danger"><ion-icon name="add"></ion-icon></button>
+</ion-fab>
+<ion-content parallax-header>
+
+	<div class="header-image" [ngStyle]= '{"background-image": imgSrc, "height": imgHeight}'>
+		<ion-navbar transparent no-border>
+		</ion-navbar>		
+	</div>
+	<div class="main-content">
+		<ion-grid>
+			<ion-row>
+				<ion-col col-10>
+					<div class="movie-details">
+						<span style="color:red;font-weight:bold;">MOVIE</span> 2015
+					</div>
+					<h2>Kala</h2>
+					<div class="movie-details">
+						<span>Action Drama</span> - Running Time - Release  Date</div>
+				</ion-col>
+				<ion-col col-2>
+					<div class="rating">8.2</div>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+		<h3 text-center>Synopsis</h3>
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+			Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+			when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			It has survived not only five centuries, but also the leap into electronic typesetting, 
+			remaining essentially unchanged. It was popularised in the 1960s with the release of 
+			Letraset sheets containing Lorem Ipsum passages, and more recently with 
+			desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</p>
+		<ion-scroll scrollX="true" direction="x" style="white-space: nowrap; height:150px">
+			<ion-col col-3 style="display: inline-block;">
+				<div style="text-align: center">
+					<img style="display: block;margin: 0 auto; border-radius: 50%;" src="https://placehold.it/100x100">
+					<p>NAME</p>
+				</div>
+			</ion-col>
+			<ion-col col-3 style="display: inline-block;">
+				<div style="text-align: center">
+					<img style="display: block;margin: 0 auto; border-radius: 50%;" src="https://placehold.it/100x100">
+					<p>NAME</p>
+				</div>
+			</ion-col>
+
+			<ion-col col-3 style="display: inline-block;">
+				<div style="text-align: center">
+					<img style="display: block;margin: 0 auto; border-radius: 50%;" src="https://placehold.it/100x100">
+					<p>NAME</p>
+				</div>
+			</ion-col>
+			<ion-col col-3 style="display: inline-block;">
+				<div style="text-align: center">
+					<img style="display: block;margin: 0 auto; border-radius: 50%;" src="https://placehold.it/100x100">
+					<p>NAME</p>
+				</div>
+			</ion-col>
+			<ion-col col-3 style="display: inline-block;">
+				<div style="text-align: center">
+					<img style="display: block;margin: 0 auto; border-radius: 50%;" src="https://placehold.it/100x100">
+					<p>NAME</p>
+				</div>
+			</ion-col>
+		</ion-scroll>		
+		<h3 text-center>Review</h3>
+		<ion-grid>
+			<ion-row>
+				<ion-col col-12>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</ion-col>
+			<ion-row>
+			<ion-col col-12>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+			</ion-col>
+			</ion-row>
+			</ion-row>
+			<hr style="width: 60%;border: 1px dotted white;">			
+		</ion-grid>
+		<ion-grid>
+			<ion-row>
+				<ion-col col-12>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</ion-col>
+			<ion-row>
+			<ion-col col-12>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+			</ion-col>
+			</ion-row>
+			</ion-row>
+			<hr style="width: 60%;border: 1px dotted white;">			
+		</ion-grid>
+		<ion-grid>
+			<ion-row>
+				<ion-col col-12>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</ion-col>
+			<ion-row>
+			<ion-col col-12>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+				<ion-icon name="star"></ion-icon>
+			</ion-col>
+			</ion-row>
+			</ion-row>
+			<hr style="width: 60%;border: 1px dotted white;">
+
+			<!-- <div class="review-button" (click) = "openReviewModal()"> + </div> -->			
+		</ion-grid>
+	</div>	
+</ion-content>
